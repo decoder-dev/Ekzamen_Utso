@@ -1,0 +1,11 @@
+C:\Users\deco\source\repos\zadanie2\z3-lib\bin\Debug\net8.0\z3-lib.deps.json
+C:\Users\deco\source\repos\zadanie2\z3-lib\bin\Debug\net8.0\z3-lib.dll
+C:\Users\deco\source\repos\zadanie2\z3-lib\bin\Debug\net8.0\z3-lib.pdb
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\z3-lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\z3-lib.AssemblyInfoInputs.cache
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\z3-lib.AssemblyInfo.cs
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\z3-lib.csproj.CoreCompileInputs.cache
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\z3-lib.dll
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\refint\z3-lib.dll
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\z3-lib.pdb
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\ref\z3-lib.dll

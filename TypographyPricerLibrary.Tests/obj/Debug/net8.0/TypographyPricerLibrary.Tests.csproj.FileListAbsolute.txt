@@ -1,0 +1,5 @@
+C:\Users\deco\source\repos\zadanie2\TypographyPricerLibrary.Tests\obj\Debug\net8.0\TypographyPricerLibrary.Tests.csproj.AssemblyReference.cache
+C:\Users\deco\source\repos\zadanie2\TypographyPricerLibrary.Tests\obj\Debug\net8.0\TypographyPricerLibrary.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deco\source\repos\zadanie2\TypographyPricerLibrary.Tests\obj\Debug\net8.0\TypographyPricerLibrary.Tests.AssemblyInfoInputs.cache
+C:\Users\deco\source\repos\zadanie2\TypographyPricerLibrary.Tests\obj\Debug\net8.0\TypographyPricerLibrary.Tests.AssemblyInfo.cs
+C:\Users\deco\source\repos\zadanie2\TypographyPricerLibrary.Tests\obj\Debug\net8.0\TypographyPricerLibrary.Tests.csproj.CoreCompileInputs.cache

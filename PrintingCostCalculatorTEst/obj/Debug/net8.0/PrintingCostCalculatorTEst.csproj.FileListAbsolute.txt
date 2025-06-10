@@ -1,0 +1,5 @@
+C:\Users\deco\source\repos\zadanie2\PrintingCostCalculatorTEst\obj\Debug\net8.0\PrintingCostCalculatorTEst.csproj.AssemblyReference.cache
+C:\Users\deco\source\repos\zadanie2\PrintingCostCalculatorTEst\obj\Debug\net8.0\PrintingCostCalculatorTEst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deco\source\repos\zadanie2\PrintingCostCalculatorTEst\obj\Debug\net8.0\PrintingCostCalculatorTEst.AssemblyInfoInputs.cache
+C:\Users\deco\source\repos\zadanie2\PrintingCostCalculatorTEst\obj\Debug\net8.0\PrintingCostCalculatorTEst.AssemblyInfo.cs
+C:\Users\deco\source\repos\zadanie2\PrintingCostCalculatorTEst\obj\Debug\net8.0\PrintingCostCalculatorTEst.csproj.CoreCompileInputs.cache

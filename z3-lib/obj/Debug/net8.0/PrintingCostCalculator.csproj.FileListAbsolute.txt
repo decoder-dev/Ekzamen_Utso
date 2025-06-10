@@ -1,0 +1,11 @@
+C:\Users\deco\source\repos\zadanie2\z3-lib\bin\Debug\net8.0\PrintingCostCalculator.deps.json
+C:\Users\deco\source\repos\zadanie2\z3-lib\bin\Debug\net8.0\PrintingCostCalculator.dll
+C:\Users\deco\source\repos\zadanie2\z3-lib\bin\Debug\net8.0\PrintingCostCalculator.pdb
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\PrintingCostCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\PrintingCostCalculator.AssemblyInfoInputs.cache
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\PrintingCostCalculator.AssemblyInfo.cs
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\PrintingCostCalculator.csproj.CoreCompileInputs.cache
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\PrintingCostCalculator.dll
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\refint\PrintingCostCalculator.dll
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\PrintingCostCalculator.pdb
+C:\Users\deco\source\repos\zadanie2\z3-lib\obj\Debug\net8.0\ref\PrintingCostCalculator.dll
