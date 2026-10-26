@@ -1,15 +1,15 @@
-// Form1.cs
+п»ї// Form1.cs
 using System;
 using System.Windows.Forms;
-using TypographyPricerLibrary; // Убедитесь, что эта ссылка на вашу библиотеку корректна
+using TypographyPricerLibrary; // РЈР±РµРґРёС‚РµСЃСЊ, С‡С‚Рѕ СЌС‚Р° СЃСЃС‹Р»РєР° РЅР° РІР°С€Сѓ Р±РёР±Р»РёРѕС‚РµРєСѓ РєРѕСЂСЂРµРєС‚РЅР°
 
 namespace TypographyWinFormsApp
 {
-    public partial class Бурбулятор : Form
+    public partial class Р‘СѓСЂР±СѓР»СЏС‚РѕСЂ : Form
     {
         private PrintingCostCalculator _calculator;
 
-        public Бурбулятор()
+        public Р‘СѓСЂР±СѓР»СЏС‚РѕСЂ()
         {
             InitializeComponent();
 
@@ -21,24 +21,24 @@ namespace TypographyWinFormsApp
         {
             if (comboBoxFormat == null)
             {
-                MessageBox.Show("comboBoxFormat не инициализирован!", "Критическая ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("comboBoxFormat РЅРµ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅ!", "РљСЂРёС‚РёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             if (comboBoxUrgency == null)
             {
-                MessageBox.Show("comboBoxUrgency не инициализирован!", "Критическая ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("comboBoxUrgency РЅРµ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅ!", "РљСЂРёС‚РёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            // Заполнение ComboBox для форматов
+            // Р—Р°РїРѕР»РЅРµРЅРёРµ ComboBox РґР»СЏ С„РѕСЂРјР°С‚РѕРІ
             comboBoxFormat.DataSource = Enum.GetValues(typeof(PaperFormat));
-            comboBoxFormat.SelectedIndex = 0; // Выбрать первый элемент по умолчанию
+            comboBoxFormat.SelectedIndex = 0; // Р’С‹Р±СЂР°С‚СЊ РїРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 
-            // Заполнение ComboBox для срочности
+            // Р—Р°РїРѕР»РЅРµРЅРёРµ ComboBox РґР»СЏ СЃСЂРѕС‡РЅРѕСЃС‚Рё
             var urgencyOptions = new BindingSource();
             urgencyOptions.DataSource = new[] {
-                new { Display = "На следующий день", Value = OrderUrgency.StandardNextDay },
-                new { Display = "В присутствии заказчика (срочно)", Value = OrderUrgency.UrgentInPresence }
+                new { Display = "РќР° СЃР»РµРґСѓСЋС‰РёР№ РґРµРЅСЊ", Value = OrderUrgency.StandardNextDay },
+                new { Display = "Р’ РїСЂРёСЃСѓС‚СЃС‚РІРёРё Р·Р°РєР°Р·С‡РёРєР° (СЃСЂРѕС‡РЅРѕ)", Value = OrderUrgency.UrgentInPresence }
             };
             comboBoxUrgency.DataSource = urgencyOptions;
             comboBoxUrgency.DisplayMember = "Display";
@@ -50,17 +50,17 @@ namespace TypographyWinFormsApp
         {
             try
             {
-                // Убедимся, что numericUpDownCopies также инициализирован
+                // РЈР±РµРґРёРјСЃСЏ, С‡С‚Рѕ numericUpDownCopies С‚Р°РєР¶Рµ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅ
                 if (numericUpDownCopies == null)
                 {
-                    MessageBox.Show("numericUpDownCopies не инициализирован!", "Критическая ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("numericUpDownCopies РЅРµ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅ!", "РљСЂРёС‚РёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
                 int copies = (int)numericUpDownCopies.Value;
 
                 if (comboBoxFormat.SelectedItem == null || comboBoxUrgency.SelectedValue == null)
                 {
-                    MessageBox.Show("Пожалуйста, выберите все опции.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("РџРѕР¶Р°Р»СѓР№СЃС‚Р°, РІС‹Р±РµСЂРёС‚Рµ РІСЃРµ РѕРїС†РёРё.", "РћС€РёР±РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
@@ -70,26 +70,26 @@ namespace TypographyWinFormsApp
                 decimal totalCost = _calculator.CalculateTotalCost(copies, selectedFormat, selectedUrgency);
                 if (labelResultCost == null)
                 {
-                    MessageBox.Show("labelResultCost не инициализирован!", "Критическая ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("labelResultCost РЅРµ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅ!", "РљСЂРёС‚РёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                labelResultCost.Text = $"Стоимость: {totalCost:C2} руб.";
+                labelResultCost.Text = $"РЎС‚РѕРёРјРѕСЃС‚СЊ: {totalCost:C2} СЂСѓР±.";
             }
             catch (ArgumentOutOfRangeException ex)
             {
                 string message = ex.Message.Contains(".") ? ex.Message.Substring(0, ex.Message.IndexOf('.') + 1) : ex.Message;
-                MessageBox.Show($"Ошибка ввода: {ex.ParamName} - {message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                if (labelResultCost != null) labelResultCost.Text = "Ошибка";
+                MessageBox.Show($"РћС€РёР±РєР° РІРІРѕРґР°: {ex.ParamName} - {message}", "РћС€РёР±РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (labelResultCost != null) labelResultCost.Text = "РћС€РёР±РєР°";
             }
             catch (ArgumentException ex)
             {
-                MessageBox.Show($"Ошибка: {ex.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                if (labelResultCost != null) labelResultCost.Text = "Ошибка";
+                MessageBox.Show($"РћС€РёР±РєР°: {ex.Message}", "РћС€РёР±РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (labelResultCost != null) labelResultCost.Text = "РћС€РёР±РєР°";
             }
             catch (Exception exGeneral)
             {
-                MessageBox.Show($"Произошла ошибка: {exGeneral.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                if (labelResultCost != null) labelResultCost.Text = "Ошибка";
+                MessageBox.Show($"РџСЂРѕРёР·РѕС€Р»Р° РѕС€РёР±РєР°: {exGeneral.Message}", "РћС€РёР±РєР°", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (labelResultCost != null) labelResultCost.Text = "РћС€РёР±РєР°";
             }
         }
     }
