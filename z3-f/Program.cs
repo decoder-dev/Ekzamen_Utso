@@ -1,4 +1,4 @@
-using TypographyWinFormsApp;
+п»їusing TypographyWinFormsApp;
 
 namespace z3_f
 {
@@ -13,7 +13,7 @@ namespace z3_f
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Бурбулятор());
+            Application.Run(new Р‘СѓСЂР±СѓР»СЏС‚РѕСЂ());
         }
     }
 }

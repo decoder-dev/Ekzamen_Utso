@@ -1,6 +1,4 @@
 ﻿// PrintingCostCalculatorTests.cs
-using PuppeteerSharp.Media;
-// using PuppeteerSharp.Media; // Эта строка не нужна и должна быть удалена, если есть
 
 namespace TypographyPricerLibrary.Tests // Пространство имен для тестов
 {
